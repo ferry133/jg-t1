@@ -1,0 +1,9 @@
+context: jcom-t1
+contexts:
+    jcom-t1:
+        endpoints:
+            - https://omni.janncot.com
+        auth:
+            siderov1:
+                identity: ferry133@gmail.com
+        cluster: t1
