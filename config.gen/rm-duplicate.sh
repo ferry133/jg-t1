@@ -9,8 +9,8 @@ kubectl delete service kube-dns -n kube-system
 kubectl delete serviceaccount coredns -n kube-system
 kubectl delete configmap coredns -n kube-system
 
-#kubectl delete daemonset.apps kube-flannel  -n kube-system
-#kubectl delete serviceaccount flannel -n kube-system
-#kubectl delete configmap kube-flannel-cfg -n kube-system
+kubectl delete daemonset.apps kube-flannel  -n kube-system
+kubectl delete serviceaccount flannel -n kube-system
+kubectl delete configmap kube-flannel-cfg -n kube-system
 
 
