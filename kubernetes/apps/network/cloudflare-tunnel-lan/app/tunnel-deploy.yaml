@@ -4,7 +4,7 @@ metadata:
   name: cloudflared-default-lan
   namespace: network
 spec:
-  replicas: 2
+  replicas: 1     # 2
   selector:
     matchLabels:
       pod: cloudflared
