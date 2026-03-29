@@ -47,7 +47,7 @@ metadata:
 spec:
   ports:
     - name: ttyd
-      protocol: HTTP
+      protocol: TCP
       port: 7681
       targetPort: 7681
   selector:
