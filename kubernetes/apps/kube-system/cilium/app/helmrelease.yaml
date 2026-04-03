@@ -30,12 +30,15 @@ spec:
     envoy:
       enabled: false
     gatewayAPI:
-      enabled: false
+#      enabled: false
+      enabled: true           # Larry: enable gateway API support. refer to https://docs.siderolabs.com/kubernetes-guides/cni/deploying-cilium#deploy-cilium-cni for more details.
+      enableAlpn: true
+      enableAppProtocol: true
     hubble:
       enabled: false
     ipam:
       mode: kubernetes
-    ipv4NativeRoutingCIDR: "10.96.0.0/16"
+    ipv4NativeRoutingCIDR: "10.96.0.0/16"     # Larry: align with omni default CIDR setting.
     k8sServiceHost: 127.0.0.1
     k8sServicePort: 7445
     kubeProxyReplacement: true
