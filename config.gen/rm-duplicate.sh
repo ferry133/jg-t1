@@ -20,3 +20,7 @@ kubectl delete ClusterRole/flannel
 kubectl delete daemonset kube-proxy -n kube-system
 kubectl delete configmap kube-proxy -n kube-system
 kubectl delete serviceaccount kube-proxy -n kube-system
+
+
+
+#. WARN File does not exist file="/Users/ferry133/coding/jg-t1/bootstrap/github-deploy-key.sops.yaml"
