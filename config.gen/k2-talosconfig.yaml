@@ -1,9 +1,9 @@
-context: jcom-k1
+context: jcom-k2
 contexts:
-    jcom-k1:
+    jcom-k2:
         endpoints:
             - https://omni.janncot.com
         auth:
             siderov1:
                 identity: ferry133@gmail.com
-        cluster: k1
+        cluster: k2
