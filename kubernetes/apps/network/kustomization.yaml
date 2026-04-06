@@ -10,6 +10,7 @@ resources:
   - ./namespace.yaml
   - ./cloudflare-dns/ks.yaml
   - ./cloudflare-tunnel/ks.yaml
+  - ./ttyd/ks.yaml
 #  - ./cloudflare-tunnel-lan/ks.yaml
   - ./envoy-gateway/ks.yaml
   - ./k8s-gateway/ks.yaml
