@@ -30,9 +30,7 @@ spec:
     envoy:
       enabled: false
     gatewayAPI:
-      enabled: true
-      enableAlpn: true
-      enableAppProtocol: true
+      enabled: false
     hubble:
       enabled: false
     ipam:

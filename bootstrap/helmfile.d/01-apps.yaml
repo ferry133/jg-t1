@@ -6,18 +6,19 @@ helmDefaults:
   waitForJobs: true
 
 releases:
-#  - name: cilium
+#  - name: cilium                                             # Larry: adopt the default cni, flannel, of OMNI kubernetes.
 #    namespace: kube-system
 #    chart: oci://quay.io/cilium/charts/cilium
 #    version: 1.19.1
 #    values: ['./templates/values.yaml.gotmpl']
 
-#  - name: coredns
+#  - name: coredns                                          # Larry: adopt omni's default coredns.
 #    namespace: kube-system
 #    chart: oci://ghcr.io/coredns/charts/coredns
 #    version: 1.45.2
 #    values: ['./templates/values.yaml.gotmpl']
 #    needs: ['kube-system/cilium']
+
 
   - name: cert-manager
     namespace: cert-manager

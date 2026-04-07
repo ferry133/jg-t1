@@ -36,7 +36,7 @@ releases:
     #% if spegel_enabled %#
     needs: ['kube-system/spegel']
     #% else %#
-    needs: ['kube-system/coredns']
+#    needs: ['kube-system/coredns']
     #% endif %#
 
   - name: flux-operator
